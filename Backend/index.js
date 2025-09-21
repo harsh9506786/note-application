@@ -30,7 +30,7 @@ app.use(cors());
 
 app.use("/api/v1/noteapp", noteRoutes);
 
-const buildPath = path.join(__dirname, '../frontend/build'); // Path ko dhyan se set karein
+const buildPath = path.join(__dirname, '../frontend/dist');
 app.use(express.static(buildPath));
 
 app.get('*', (req, res) => {
