@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import { NoteContext } from '../context/NoteContext'
 
-function Notecard({note}) {
+function NoteCard({note}) {
     const {deleteNote,updateNote}=useContext(NoteContext)
     const [isEditing,setIsEditing]=useState(false)
     const [editData,setEditData]=useState({
@@ -94,4 +94,4 @@ function Notecard({note}) {
   )
 }
 
-export default Notecard
+export default NoteCard
