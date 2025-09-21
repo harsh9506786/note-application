@@ -1,5 +1,5 @@
 import React from "react";
-import Noteform from "../components/Noteform.jsx";
+import Noteform from "../components/NoteForm.jsx";
 
 function Createnote() {
   return (
