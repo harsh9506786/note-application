@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { NoteContext } from '../context/NoteContext'
-import Notecard from '../components/Notecard'
+import Notecard from '../components/NoteCard.jsx'
 
 function Home() {
   const {notes,loading}=useContext(NoteContext)
